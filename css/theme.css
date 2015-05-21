@@ -1,0 +1,279 @@
+<style>
+
+  /*  $ELEMENTS
+  _______________________________________________________ */
+
+  body { 
+  font: 1em/1.75em  Source Sans Pro; 
+  color: #666666;
+  background: #F6F6F6;
+  }
+
+  
+  body { background: #F6F6F6 }
+  
+
+  
+  body { background-repeat:repeat; background-size: auto; }
+  
+
+  header#masthead, nav#access, .wrapper { max-width: 1080px; }
+
+  
+  header#masthead, nav#access { max-width: 100%; }
+  
+
+  .wrapper main { background-color: #FFFFFF; }
+
+  h1, h2, h3, h4, h5, h6 { 
+    font: 2em/1.25em Montserrat; 
+    color: #666666;
+  }
+
+  h2 { font-size: 1.75em }
+  h3 { font-size: 1.5em }
+  h4 { font-size: 1.25em }
+  h5 { font-size: 1em }
+  h6 { font-size: .75em }
+
+  h2.title { margin-top: 0; padding-top: 1em; }
+  
+  /*  $GROUPEDCOLORS
+  _____________________________________ */
+
+  a:visited, section#search #search-form input:focus, article > h1.title a:link, article.answer .asker-question span.asker a:link, 
+  article .post-author a:link, article.link .title a, footer.metadata a:hover, .pop-up-box, .pop-up-box .title, 
+  .share-links a { color: #666666; }
+
+  a:link, .pagination > a:hover, .comic-pagination > a:hover, article > h1.title a:hover, 
+  article.answer .asker-question span.asker a:hover, article .post-author a:hover, article.link a:hover, 
+  footer.metadata .tags a:hover, footer.metadata ul.post-meta a:hover { color: #386ccf; }
+
+  section#search #search-form input, aside section .end a, .pagination > a, .comic-pagination > a, 
+  article.link .host a, footer.metadata a { color: #AAAAAA; }
+
+  aside, aside section .title, .social-links ul li a, aside a:visited, aside section#twitter ul li a { color: #FFFFFF; }
+
+  /*  $HEADER
+  _____________________________________ */
+
+  header#masthead { background-color: #fbeaa5; }
+
+  
+  header#masthead { background: #fbeaa5 url(/css/images/gw_header2.jpg) no-repeat top center; } 
+   
+
+    
+
+  
+
+  
+  
+  
+  header#masthead { background-size: cover; }
+  
+  
+  
+
+  header#masthead h1 a { 
+    height: 280px;
+    color: #444444;
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition:    all 0.5s ease;
+    -ms-transition:     all 0.5s ease;
+    -o-transition:      all 0.5s ease;
+    transition:         all 0.5s ease;    
+  }
+  
+  header h1 a span { display: none; }
+  nav#access h5 a span { display: none; }
+  
+
+   
+
+  nav#access { background-color: #FFFFFF; }
+
+  
+  
+  body { padding-top: 3.5em; }
+  
+  nav#access {
+    z-index: 999;
+    position: fixed;
+    top: -1px;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+    
+
+  nav#access ul li a:link, nav#access ul li a:visited, 
+  nav#access .ico-search, nav#access .ico-bars,
+  section#search #search-form .ico-times { color: #666666; }
+  nav#access ul li a:hover, nav#access .ico-search:hover, 
+  nav#access .ico-bars:hover, section#search #search-form .ico-times:hover { color: #386ccf; }
+
+  
+  nav#access h5.title { 
+    display: inline;
+    max-width: 100%;
+    margin: 0;
+    letter-spacing: -0.5px;
+    font-weight: 700;
+  }
+  nav#access h5.title a { 
+    -webkit-transition: all 0.5s ease;
+    -moz-transition:    all 0.5s ease;
+    -ms-transition:     all 0.5s ease;
+    -o-transition:      all 0.5s ease;
+    transition:         all 0.5s ease;
+
+    color: #444444; 
+  }
+  nav#access h5.title a:hover { 
+    text-decoration: none;
+    color: #386ccf; 
+  }
+  
+  nav#access ul { 
+    float: right;
+    line-height: inherit;
+  }
+  
+
+  
+  
+  nav#access .wrapper { padding: 0; }
+  nav#access h5.title { float: left; }
+  nav#access h5.title img {
+    display: block;
+    max-height: 80px;
+    padding: 0.5em;
+  }
+  nav#access ul { padding: 1.55em 1em; }
+  section#search #search-form { 
+    top: -1.6em;
+    padding: 0.5em 0.15em 0.5em 0.5em;
+  }
+  
+  
+  
+
+  #btt:hover { background-color: #386ccf; }
+
+  /*  $SEARCH
+  _____________________________________ */
+
+  section#search { width: 1080px; }
+
+  section#search #search-form { background-color: #FFFFFF; }
+
+  
+  
+  section#search { top: 54px; } 
+  section#search #search-form { left: 0; max-width: 100%; }
+  
+  
+
+
+  /*  $ASIDE
+  _____________________________________ */
+
+  aside { background: #b4b6b5 url(http://assets.tumblr.com/images/x.gif?v=1) no-repeat top center; }
+
+  
+
+  aside section .title { font-family: Source Sans Pro; }  
+  
+  .social-links ul li a span.ico { background-color: #386ccf; }
+
+  /*  $FOOTER
+  _____________________________________ */
+
+  footer.sub-basement {
+    color: #222222; 
+    background-color: #b4b6b5;
+  } 
+  footer.sub-basement a { color: #222222; }
+
+
+  /*  $POST HEADER
+  _____________________________________ */
+
+  article.post header {
+    float: left;
+  }
+  /*  $POST
+  _____________________________________ */
+
+  article.post:nth-of-type(n+2),
+  section#notes ol li,
+  article blockquote,
+  #notes blockquote { border-color: #EEEEEE; }
+  .comic-pagination>a img { max-height: 24px; }
+
+  /*  $POST-META
+  _____________________________________ */
+
+  
+  footer.metadata ul.post-meta { padding-top: .2em; }
+  
+
+
+  /*  $MEDIA-QUERIES
+  _____________________________________ */
+  
+  @media only screen and (min-width:1600px){
+    
+    header#masthead h1 a{height:480px;}
+  }
+  @media only screen and (min-width:1080px) and (max-width:1600px){
+    header#masthead h1 a{height:380px;}
+  }
+  @media only screen and (min-width:880px) and (max-width:1080px){
+    header#masthead h1 a{height:320px;}
+  }
+  
+  @media only screen and (max-width: 480px) {
+      
+
+    nav#access .wrapper > ul li a,
+    nav#access .wrapper > ul li span { border-color: #EEEEEE; }
+    nav#access .wrapper > ul li span { border: none; color: #666666; }
+
+    nav#access .wrapper > ul li a:link, 
+    nav#access .wrapper > ul li a:visited { color: #666666; }
+    nav#access .wrapper > ul li a:hover { background-color: #EEEEEE; }  
+    
+    
+    nav#access { 
+      float: left;
+      width: 100%;
+    }
+    nav#access .ico-bars { 
+      float: right;
+      padding-top: .25em;
+    }
+    nav#access ul { padding: 0; }
+    
+    nav#access .ico-bars { 
+      padding-top: 1.5em;
+    }
+    nav#access .wrapper > ul { top: 80px; }
+
+    section#search #search-form {
+      padding: 0.75em 0.5em;
+      top: -2em;
+    }
+    
+    
+
+  }
+
+  /* Custom CSS */
+  aside section, .alternative aside section, .wrapper-slim aside section { width: 49%; }
+
+@media only screen and (max-width: 480px) {
+    aside section, .alternative aside section, .wrapper-slim aside section{ width: 100% !important; }
+}
